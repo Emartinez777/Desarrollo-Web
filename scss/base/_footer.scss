@@ -1,0 +1,57 @@
+.h2center {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media (max-width: 375px) {
+
+    section {
+        flex-flow: column;
+    }
+    
+}
+
+.footer {
+    border: 1px rgba(0, 0, 0, 0.925);
+    display: grid;
+    
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas:
+        "titulo redes";
+    
+        
+
+}
+
+
+
+
+.footer__texto {
+    grid-area: redes;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+
+
+@media (max-width: 375px) {
+
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 0.25fr;
+        grid-template-areas:
+            "titulo"
+            "redes"
+
+        ;
+
+    }
+}

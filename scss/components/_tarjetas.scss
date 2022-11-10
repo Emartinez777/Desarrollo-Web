@@ -1,0 +1,14 @@
+/* tarjetas */
+.card{
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .3);
+    box-shadow: $cardhover1;
+    transition: all 400ms ease;
+    &:hover{
+        box-shadow: $cardhover2;
+        transform: translateY(-3%);
+        
+    }
+
+}
+
