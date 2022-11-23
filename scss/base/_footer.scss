@@ -14,30 +14,27 @@
 }
 
 .footer {
-    border: 1px rgba(0, 0, 0, 0.925);
-    display: grid;
-    
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 0.2fr;
-    grid-template-areas:
-        "titulo redes";
-    
-        
-
-}
-
-
-
-
-.footer__texto {
-    grid-area: redes;
-    font-size: large;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
-    font-family: 'Mukta', sans-serif;
+    border: 1px rgba(0, 0, 0, 0.925);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c6c2fb93 100%);
+    padding-top: 20px;
+        &__texto {
+            grid-area: redes;
+            font-size: large;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            font-family: 'Mukta', sans-serif;
+        }
 }
+
+
+
+
+
 
 
 

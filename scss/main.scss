@@ -1,14 +1,14 @@
-@import "./pages/index";
-@import "./pages/empresas";
-@import "./pages/nosotros";
-@import "./pages/personas";
-@import "./pages/registrate";
 
 
 @import "./utils/variables";
 
-@import "./components/tarjetas";
-
 @import "./base/contornosyfondos";
 @import "./base/footer";
 @import "./base/header";
+
+
+@import "./components/tarjetas";
+
+
+@import "./pages/nosotros";
+@import "./pages/personas";

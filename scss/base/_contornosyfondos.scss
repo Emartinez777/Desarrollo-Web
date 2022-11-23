@@ -3,19 +3,27 @@
     margin: 0;
 }
 
-.body {
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c6c2fb 100%);
-    min-height: 100%vh;
-    ;
-}
+body {
+  
+    background-image: url(../img/biggest-Information-Technology-Firm.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    }
 
 .sectionmain {
+    
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 150px 0 150px 0;
     border-radius: 3pc;
     
     
